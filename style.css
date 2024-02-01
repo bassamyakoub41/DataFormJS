@@ -1,0 +1,44 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#form{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#nameinput{
+    border-color:var(--bs-success-border-subtle) ;
+}
+#genderinput{
+    border-color:orange;
+}
+#ageinput{
+    border-color: red;
+}
+#btn{
+    display: flex;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    width: 77px;
+}
+.table{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+
+
+}
+thead{
+    border-bottom: 1px solid grey;
+
+}
+
